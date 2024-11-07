@@ -19,3 +19,16 @@ The API reference, examples, as well as introduction can be found at
 https://x42.github.io/libltc/
 
 This site is part or the source-code in the doc/ folder.
+
+## Build on ubuntu 
+
+```
+sudo apt install automake autoconf libtool
+./configure
+make
+make install
+```
+
+The library should be installed at ls `/usr/local/lib/libltc.so`
+
+
